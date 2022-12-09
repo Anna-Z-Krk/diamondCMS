@@ -1,6 +1,6 @@
 # DiamondCMS
 
-## Boostrap CMS (just frontend)
+## Boostrap CMS (just frontend). Target size: width 1600px x height 1000px.
 
 ![Preview:](https://github.com/Anna-Z-Krk/diamondCMS/blob/main/CMS_preview.png)
 
@@ -15,6 +15,7 @@
 - Visual Studio Code
 - Boostrmp
 - HTML5, CSS3, JS
+- ApexCharts
 
 FROM COURSE BY MMCSCHOOL.
   
