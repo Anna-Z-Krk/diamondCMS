@@ -1,6 +1,6 @@
-# Interactive Pricing
+# DiamondCMS
 
-## Responsive panel of pricing with discount and slider
+## Boostrap CMS (just frontend)
 
 ![Preview:](https://github.com/Anna-Z-Krk/diamondCMS/blob/main/CMS_preview.png)
 
