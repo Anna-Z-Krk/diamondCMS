@@ -1,6 +1,9 @@
 # DiamondCMS
 
-## Boostrap CMS (just frontend). Target size: width 1600px x height 1000px.
+## Boostrap CMS (just frontend). 
+
+### Target size: width 1600px x height 1000px.
+
 
 ![Preview:](https://github.com/Anna-Z-Krk/diamondCMS/blob/main/CMS_preview.png)
 
