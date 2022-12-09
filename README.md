@@ -5,7 +5,7 @@
 ![Preview:](https://github.com/Anna-Z-Krk/diamondCMS/blob/main/CMS_preview.png)
 
 
-**You can view it here:** https://anna-z-krk.github.io/diamondCMS/
+**Soon you will be able to view it here:** https://anna-z-krk.github.io/diamondCMS/
 
 ### AIM OF THE PROJECT:
 - creating something different to standad web page
