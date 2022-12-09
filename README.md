@@ -16,7 +16,7 @@
 
 ### USED IN THIS PROJECT:
 - Visual Studio Code
-- Boostrmp
+- Boostrap
 - HTML5, CSS3, JS
 - ApexCharts
 
