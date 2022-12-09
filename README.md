@@ -1,0 +1,2 @@
+# diamondCMS
+Boostrap Diamond CMS.
