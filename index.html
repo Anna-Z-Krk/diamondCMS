@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond CMS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/75625c3f77.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- left panel -->
+    <div class="panel">
+      <div class="row m-0 h-100">
+        <div class="panel-left col-2 p-0 px-4 text-white text-center">
+          <section class="date-box">
+            <p class="mb-0 day">Wensday</p>
+            <p class="mb-0 time">12:02</p>
+            <p class="mb-0 date text-muted">12/12/2022</p>
+          </section>
+          <nav class="menu">
+            <a href="index.html" class="active"
+              ><div class="menu-item">
+                <i class="fas fa-sliders-h"></i>
+                <p>main page</p>
+              </div></a
+            >
+            <a href="posts.html"
+              ><div class="menu-item">
+                <i class="far fa-comments"></i>
+                <p>posts</p>
+              </div></a
+            >
+            <a href="users.html"
+              ><div class="menu-item">
+                <i class="fas fa-user-friends"></i>
+                <p>users</p>
+              </div></a
+            >
+          </nav>
+          <section class="info-box mt-3">
+            <h3>Diamond CMS</h3>
+            <p class="text-muted">&copy Copyright 2022</p>
+          </section>
+        </div>
+
+        <!-- right panel -->
+        <div class="panel-right col-10 p-0">
+          <div class="row m-0 h-100">
+            <div class="col-9 mt-5">
+              <section class="main-stats py-4 px-5 text-white text-center">
+                <h1 class="mb-5">main stats</h1>
+                <div class="row mb-5">
+                  <div class="col-4">
+                    <div class="main-stat-box p-5 border">
+                      <h3>posts</h3>
+                      <p>Total amount: 4 250 000</p>
+                      <p>This month: 125 701</p>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="main-stat-box p-5 border">
+                      <h3>topics</h3>
+                      <p>Total amount: 1 110 000</p>
+                      <p>This month: 35 711</p>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="main-stat-box p-5 border">
+                      <h3>Users</h3>
+                      <p>Total amount: 850 000</p>
+                      <p>This month: 8 791</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="chart" class="py-5 text-dark"></div>
+                <section class="main-table p-5">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="mb-3">Last posts:</h3>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-outline-light dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Sort
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">By date</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">By author</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div>
+                    <table
+                      class="table table-transparent text-light text-start"
+                    >
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Theme</th>
+                          <th scope="col">User</th>
+                          <th scope="col">Date</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Lorem, ipsum dolor.</td>
+                          <td>Otto</td>
+                          <td>20/12/2022</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Lorem ipsum dolor sit amet.</td>
+                          <td>Thornton</td>
+                          <td>20/12/2022</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Lorem ipsum dolor sit.</td>
+                          <td>20/12/2022</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <nav
+                    aria-label="Page navigation"
+                    class="d-flex justify-content-center"
+                  >
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </section>
+              </section>
+            </div>
+            <aside class="col-3 p-4 px-5 text-light text-center aside pe-5">
+              <section class="logo py-4">
+                <p class="logo-text "><i class="bi bi-gem"></i> Diamond</p>
+                <p>Prowerful tool for professionals & cookie lovers</p>
+              </section>
+              <section class="users-online py-5">
+                <h3>Users online</h3>
+                <p>49</p>
+              </section>
+              <section class="users-gender py-5">
+                <h3>User's gender</h3>
+                <div class="row m-0">
+                  <div class="col-6"><i class="fas fa-female"></i>
+              <p>46%</p>
+                  </i></div>
+                  <div class="col-6"><i class="fas fa-male"></i>
+                    <p>44%</p>
+                </div>
+              </section>
+              <section class="monthly-stats py-5">
+                <h3>statystyki</h3>
+                <div class="form-group mb-4">
+                  <select name="" id="" class="form-select bg-transparent text-light">
+                    <option selected>January</option>
+                    <option >February</option>
+                    <option >March</option>
+                    <option >April</option>
+                    <option >May</option>
+                    <option >June</option>
+                    <option >July</option>
+                    <option >August</option>
+                    <option >September</option>
+                    <option >October</option>
+                    <option >November</option>
+                    <option >December</option>
+                    
+                  </select>
+                </div>
+                <div class="row m-0">
+                  <div class="col-6 mb-4">
+                    <p class="info">Posts</p>
+                    <p class="number text-muted">125.324</p>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <p class="info">Registrations</p>
+                    <p class="number text-muted">5.315</p>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <p class="info">Averange time</p>
+                    <p class="number text-muted">24 minutes</p>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <p class="info">Average active time</p>
+                    <p class="number text-muted">12 minutes</p>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <p class="info">No. of orders</p>
+                    <p class="number text-muted">931</p>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <p class="info">No. of complains</p>
+                    <p class="number text-muted">7</p>
+                  </div>
+                </div>
+              </section>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
